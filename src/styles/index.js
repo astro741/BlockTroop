@@ -1,7 +1,7 @@
 const styles = {
   // general
   headText: "font-rajdhani font-bold text-white sm:text-6xl text-4xl",
-  normalText: "font-rajdhani font-normal text-[24px] text-siteWhite",
+  normalText: "font-rajdhani font-normal text-[30px] text-siteWhite",
   footerText: "font-rajdhani font-medium text-base text-white",
   infoText: "font-rajdhani font-medium text-lg text-violet-400 cursor-pointer",
 
@@ -11,7 +11,7 @@ const styles = {
   // hoc page
   hocContainer: "min-h-screen flex xl:flex-row flex-col relative",
   hocContentBox:
-    "flex flex-4 justify-between bg-siteblack py-8 sm:px-12 px-8 flex-col z-10 rounded-br-[350px] myContentBox",
+    "flex flex-4 justify-between bg-siteblack py-8 sm:px-12 px-8 flex-col z-10 rounded-br-[180px] myContentBox",
   // hocLogo: 'w-[160px] h-[52px] object-contain cursor-pointer',
   hocLogo: "w-[56px] h-[56px] object-contain cursor-pointer",
   hocBodyWrapper: "flex-1 flex justify-center flex-col xl:mt-0 my-16",
@@ -59,7 +59,7 @@ const styles = {
   cardText: "font-rajdhani text-[26px] font-bold text-white",
 
   // custom button component
-  btn: "px-4 py-2 rounded-lg bg-siteViolet w-fit text-white font-rajdhani font-bold",
+  btn: "px-4 py-2 rounded-lg bg-siteViolet w-fit text-white font-rajdhani font-bold text-[24px]",
 
   // custom input component
   label: "font-rajdhani font-semibold text-2xl text-white mb-3",
